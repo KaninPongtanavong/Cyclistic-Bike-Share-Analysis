@@ -8,7 +8,7 @@ In this project, as a junior data analyst working on the marketing analyst team,
 Cyclistic’s finance analysts have concluded that annual members are much more profitable than casual riders. Although the pricing flexibility helps Cyclistic attract more customers, Moreno, the Director of Marketing, believes that maximizing the number of annual members will be key to future growth. Rather than creating a marketing campaign that targets all-new customers, Moreno believes there is a solid opportunity to convert casual riders into members. She notes that casual riders are already aware of the Cyclistic program and have chosen Cyclistic for their mobility needs. Therefore, the team needs to gain a better understanding of how annual members and casual riders differ, why casual riders would buy a membership, and how digital media could affect their marketing tactics. Moreno and her team are interested in analyzing the Cyclistic historical bike trip data to identify trends. The team will then design a new marketing strategy based on the insights we discover to convert casual riders into annual members. However, Cyclistic executives must first approve our recommendations, so they must be backed up with compelling data insights and professional data visualizations.
 
 ## Ask
-The first phrase of the data analysis process is "Ask". In this phrase, we will identify the business task, consider key stakeholders and ask key questions that need to be answered to guide the analysis.
+>The first phrase of the data analysis process is "Ask". In this phrase, we will identify the business task, consider key stakeholders and ask key questions that need to be answered to guide the analysis.
 
 ### Business Task
 Our main business task is to understand how members and casual riders use Cyclistic bike differently and to identify strategies to convert casual riders into annual members.
@@ -26,6 +26,18 @@ Our main business task is to understand how members and casual riders use Cyclis
 3. How can Cyclistic use digital media to influence casual riders to become members?
 
 ## Prepare
-In this second phrase of the data analysis process, we will gather and organize data
+>In the second phrase of the data analysis process, "Prepare", we will gather and organize the data needed for analysis and ensure that the data is reliable, original, comprehensive, current and cited (ROCCC).
 
+The historical data of Cyclistic bike share can be found [here](https://divvy-tripdata.s3.amazonaws.com/index.html). (Please Note: The datasets have a different name because Cyclistic is a fictional company. For the purposes of this case study, the datasets are appropriate and will enable you to answer the business questions. The data has been made available by Motivate International Inc. under this [license](https://divvybikes.com/data-license-agreement).) The dataset are organized as CSV file for each month, we will be using the data of the year 2023 for this project.
 
+After we downloaded all the data from 2023, we inspected it to ensure that it's ROCCC.
+
+**R**eliable: The license states that "THE DATA IS PROVIDED “AS IS,” AS AVAILABLE," and we can collect the data for the entire year of 2023, making it reliable and complete.
+
+**O**riginal: The datasets are obtained from the original source, meaning we are not relying on second or third parties.
+
+**C**omprehensive: The data contains some missing values, which we will address the issue in the next phrase.
+
+**C**urrent: The datasets are relavent as it contains the data from all the month of the previous year.
+
+**C**ited: The datasets have been vetted and provided for public use under this [license](https://divvybikes.com/data-license-agreement)
