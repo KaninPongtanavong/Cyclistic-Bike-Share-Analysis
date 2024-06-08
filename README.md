@@ -28,7 +28,7 @@ Our main business task is to understand how members and casual riders use Cyclis
 ## Prepare
 >In the second phrase of the data analysis process, "Prepare", we will gather and organize the data needed for analysis and ensure that the data is reliable, original, comprehensive, current and cited (ROCCC).
 
-The historical data of Cyclistic bike share can be found [here](https://divvy-tripdata.s3.amazonaws.com/index.html). (Please Note: The datasets have a different name because Cyclistic is a fictional company. For the purposes of this case study, the datasets are appropriate and will enable you to answer the business questions. The data has been made available by Motivate International Inc. under this [license](https://divvybikes.com/data-license-agreement).) The dataset are organized as CSV file for each month, we will be using the data of the year 2023 for this project.
+The historical data of Cyclistic bike share can be found [here](https://divvy-tripdata.s3.amazonaws.com/index.html). (Please Note: The datasets have a different name because Cyclistic is a fictional company. For the purposes of this case study, the datasets are appropriate and will enable you to answer the business questions. The data has been made available by Motivate International Inc. under this [license](https://divvybikes.com/data-license-agreement).) The datasets are structured data organized as CSV file for each month, we will be using the data of the year 2023 for this project.
 
 After we downloaded all the data from 2023, we inspected it to ensure that it's ROCCC.
 
@@ -48,3 +48,8 @@ There are 13 initial columns present in the dataset including:
 - end_lat: Latitude of the ending station
 - end_lng: Longitude of the ending station
 - member_casual: User type (member or casual)
+
+## Process
+>In the "Process" phrase, we will clean and transform the data for analysis.
+
+We will be using Jupyter notebook for process and analyze phrase. The file can be access [here]() 
