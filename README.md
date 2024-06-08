@@ -49,7 +49,10 @@ There are 13 initial columns present in the dataset including:
 - end_lng: Longitude of the ending station
 - member_casual: User type (member or casual)
 
+We then prepare the tool that we are going to use for the next phrase, Jupyter notebook. This include importing all the relevant libraries and the all the CSV file for each month.
+
 ## Process
 >In the "Process" phrase, we will clean and transform the data for analysis.
 
-We will be using Jupyter notebook for process and analyze phrase. The file can be access [here]() 
+We will be using Jupyter notebook for process and analyze phrase. The file can be access [here](https://github.com/get211/Cyclistic-Bike-Share-Analysis/blob/main/Cyclistic%20bike-share%20(Process%20%26%20Analyze).ipynb). 
+
