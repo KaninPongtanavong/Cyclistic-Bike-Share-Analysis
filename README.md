@@ -1,6 +1,5 @@
 # Cyclistic-Bike-Share-Analysis
-This project is a case study which is a part of the Google Data Analytics professional certificate. This project aims to make the learner demonstrate the skills and knowledge acquire throughout the course. We will be performing typical tasks of a junior data analyst while following the steps of the data analysis process: Ask, Prepare, Process, Analyze, Share, and Act. We will be using Jupyter notebook for preparing, processing and analyzing the data, then we will use Tableau for sharing our finding (we will also perform additional analysis if needed).
-
+This project is a case study which is a part of the Google Data Analytics professional certificate. This project aims to make the learner demonstrate the skills and knowledge acquire throughout the course. We will be performing typical tasks of a junior data analyst while following the steps of the data analysis process: Ask, Prepare, Process, Analyze, Share, and Act. We will be using Jupyter notebook for preparing, processing, and analyzing the data, then we will use Tableau for sharing our findings (we will also perform additional analysis if needed).
 ![1_sPHAfqCpeT_Hr57CPfVj1Q](https://github.com/get211/Cyclistic-Bike-Share-Analysis/assets/170894868/2f4b97a4-47b8-4ebc-b42a-ec486a85efeb)
 ## Introduction
 In this project, as a junior data analyst working on the marketing analyst team at Cyclistic, we are tasked with analyzing the bike share data. Cyclistic is a bike share company in Chicago that launched in 2016. Since then, it has grown to have more than 5,800 bicycles and 600 docking stations across Chicago. The bikes can be unlocked from one station and returned to any other station in the system at any time. Cyclistic’s marketing strategy relied on building general awareness and appealing to broad consumer segments. One approach that helped make these things possible was the flexibility of its pricing plans: single-ride passes, full-day passes, and annual memberships. Customers who purchase single-ride or full-day passes are referred to as casual riders, while customers who purchase annual memberships are Cyclistic members.
@@ -28,7 +27,7 @@ Our main business task is to understand how members and casual riders use Cyclis
 ## Prepare
 >In the second phrase of the data analysis process, "Prepare", we will gather and organize the data needed for analysis and ensure that the data is reliable, original, comprehensive, current and cited (ROCCC).
 
-The historical data of Cyclistic bike share can be found [here](https://divvy-tripdata.s3.amazonaws.com/index.html). (Please Note: The datasets have a different name because Cyclistic is a fictional company. For the purposes of this case study, the datasets are appropriate and will enable you to answer the business questions. The data has been made available by Motivate International Inc. under this [license](https://divvybikes.com/data-license-agreement).) The datasets are structured data organized as CSV file for each month, we will be using the data of the year 2023 for this project.
+The historical data of Cyclistic bike share can be found [here](https://divvy-tripdata.s3.amazonaws.com/index.html). (Please Note: The datasets have a different name because Cyclistic is a fictional company. For the purposes of this case study, the datasets are appropriate and able to answer the business questions. The data has been made available by Motivate International Inc. under this [license](https://divvybikes.com/data-license-agreement).) The datasets are structured data organized as CSV file for each month, we will be using the data of the year 2023 for this project.
 
 After we downloaded all the data from 2023, we inspected it to ensure that it's ROCCC.
 
@@ -54,5 +53,27 @@ We then prepare the tool that we are going to use for the next phrase, Jupyter n
 ## Process
 >In the "Process" phrase, we will clean and transform the data for analysis.
 
-We will be using Jupyter notebook for process and analyze phrase. The file can be access [here](https://github.com/get211/Cyclistic-Bike-Share-Analysis/blob/main/Cyclistic%20bike-share%20(Process%20%26%20Analyze).ipynb). 
+We will be using Jupyter notebook for process and analyze phrase. The file can be accessed [here](https://github.com/get211/Cyclistic-Bike-Share-Analysis/blob/main/Cyclistic%20bike-share%20(Process%20%26%20Analyze).ipynb). 
 
+### Merging All the Data
+We started by merging all the monthly files into a single DataFrame for 2023. This will allow us to perform a comprehensive analysis. As a result, we have a dataframe of 2023 bike rides that contains 5,719,877 rows in total.
+
+### Data Cleaning
+After merging the data, we will performed the following steps to clean our data:
+* Removing missing values: We removed all rows that containing a Nan values, as a result there are 4,331,707 rows left.
+* Removing duplicate values: We verified that there are no duplicate values in our dataframe.
+* Correcting Data Type: We inspected the data types of each column to ensure they are suitable for analysis. For instance, we converted the data types of started_at and ended_at to datetime object.
+
+### Data Transformation
+We then created new columns using the existing data. This included:
+* Extracting the day, month, and time from the started_at column.
+* Calculating ride duration for each ride.
+* Calculating the distance for each ride.
+* Categorizing the type of ride as 'One-way trip' or 'Round trip'.
+* Categorizing each ride as 'Weekend' or 'Weekday'.
+* Categorizing each ride by season, including 'Winter', 'Spring', 'Summer', 'Fall'
+* Categorizing each ride by part of the day as 'Morning', 'Afternoon', 'Evening' or 'Night'
+* Renaming the column for more appropriate names, such as 'member_casual' to 'user_type'
+
+### Filtering Data
+After transforming the data, we inspected it again to ensure data integrity. We found that some rows contained negative ride durations. We filtered out those rows, resulting in 4,331,641 rows.
