@@ -84,26 +84,55 @@ After transforming the data, we inspected it again to ensure data integrity. We 
 We will use the processed data to explore patterns and trends that will help us answer the key business questions.
 ### Summary of Analysis
 * There are a total of 4,331,641 rides in 2023
-* Average riding distance = 2.065 Km
-* Average ride duration = 15.95 Min
-* 64.64% of the ride are by member riders (2,799,920 rides)
-* 35.36% of the ride are by casual riders (1,531,721 rides)
-* There are two types of trip: one Way trip and round Trip
+* Average riding distance = 2.065 km.
+* Average ride duration = 15.95 minutes.
+* 64.64% of the rides are by member riders (2,799,920 rides)
+* 35.36% of the rides are by casual riders (1,531,721 rides)
+* There are two types of trip: one way trip and round Trip
 * 95.85% of the total ride are one Way trip (4,151,792 rides) and 4.15% are round Trip (179,849 rides).
 * There are three types of bikes: classic, docked, and electric
     * 2,690,707 rides used classic bike
     * 76,124 rides used docked bike
     * 1,564,810 rides used electric bike
-* Summer is the season that saw the highest number of rides with total of 1,693,622 rides, and August has the highest number of rides in summer with total of 
-* 3,108,242 rides on weekday and 1,223,399 rides on weekend, which is equivalent to 71.76% and 28.24%, respectively.
-* Part of the day that have the highest total number of rides is Afternoon, but the peakest hour is 17.00 in the evening
-
+* Summer is the season that saw the highest number of rides, totaling 1,693,622 rides. August has the highest number of rides in summer, totaling 584,912 rides.
+* 3,108,242 rides occurred on weekdays and 1,223,399 rides on weekends, which is equivalent to 71.76% and 28.24%, respectively.
+* The part of the day with the highest total number of rides is the afternoon, but the peak hour is 17:00 in the evening.
+  
 ### Analysis of Member Riders
-* Number of rides by member riders = 2,799,920 rides
-* Average riding distance = 2.038 Km
-* Average riding duration = 12.13 Min
-* 97.28% of the ride are one way trip (2,732,635 rides) and 2.72% are round trip (76,285 rides).
-* In 2023 member riders never used any docked bike
-* 1,817,702 rides by classic bike.
-* 982,218 rides by electric bike.
-* 
+* Number of rides by member riders = 2,799,920 rides.
+* Average ride distance = 2.038 km.
+* Average ride duration = 12.13 minutes.
+* 97.28% of the rides are one-way trips (2,732,635 rides) and 2.72% are round trips (76,285 rides).
+* Member riders never used docked bikes in 2023.
+* 1,817,702 rides used classic bikes.
+* 982,218 rides used electric bikes.
+* For members, summer is the season with the highest number of rides, totaling 994,686 rides. August is the month in summer with the highest number of rides, totaling 351,061 rides.
+* 76.48% of member rides occurred on weekdays and 23.52% on weekends, which is equivalent to 2,141,419 and 658,501 rides, respectively.
+* The afternoon has the highest number of rides, but the peak hour is 17:00 in the evening.
+
+### Analysis of Casual Riders
+* Number of rides by casual riders = 1,531,721 rides.
+* Average ride distance = 2.114 km.
+* Average ride duration = 22.94 minutes.
+* 93.24% of the rides are one-way trips (1,428,157 rides) and 6.76% are round trips (103,564 rides).
+* 873,005 rides by casual riders used classic bikes.
+* 79,124 rides by casual riders used docked bikes.
+* 582,952 rides by casual riders used electric bikes.
+* For casual riders, summer is the season with the highest number of rides, totaling 698,936 rides. August is the month in summer with the highest number of rides, totaling 351,061 rides.
+* 63.12% of casual rides occurred on weekdays and 36.88% on weekends, which is equivalent to 966,823 and 564,898 rides, respectively.
+* The afternoon has the highest number of rides, but the peak hour is 17:00 in the evening.
+* For casual riders, the month with the highest number of rides is July.
+
+### Additional Findings
+* Average ride duration by bike type:
+  * Classic bike = 17.14 minutes
+  * Docked bike = 53.98 minutes
+  * Electric bike = 12.07 minutes
+* Average ride distance by bike type:
+  * Classic bike = 1.953 km
+  * Docked bike = 2.155 km.
+  * Electric bike = 2.252 km.
+* Winter is the season that has the lowest number of rides, both the 2022-2023 winter (January, February) and 2023-2024 winter (December). The first winter (2022-2023) had 77,965 rides, and the second winter (2023-2024) had 39,638 rides.
+* On weekdays, the number of rides peaks at 7:00 and 8:00 in the morning the number dropped down. The number of rides then drops slightly and starts rising again from 11:00, peaking at 17:00 with 364,651 rides, 255,272 of which were by members.
+* On weekends, the number of rides rises steadily from 5:00 in the morning until after 16:00, after which the number of rides starts to drop.
+
