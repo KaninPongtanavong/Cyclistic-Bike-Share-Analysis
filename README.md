@@ -88,8 +88,8 @@ We will use the processed data to explore patterns and trends that will help us 
 * The average ride duration is 15.95 minutes.
 * 64.64% of the rides are by member riders (2,799,920 rides)
 * 35.36% of the rides are by casual riders (1,531,721 rides)
-* There are two types of trip: one way trip and round Trip
-* 95.85% of the total ride are one Way trip (4,151,792 rides) and 4.15% are round Trip (179,849 rides).
+* There are two types of trip: one-way trips and round trips
+  * 95.85% of the total ride are one-way trip (4,151,792 rides) and 4.15% are round trip (179,849 rides).
 * There are three types of bikes: classic, docked, and electric
     * 2,690,707 rides used classic bike
     * 76,124 rides used docked bike
@@ -103,8 +103,8 @@ We will use the processed data to explore patterns and trends that will help us 
 * The average ride distance is 2.038 km.
 * The average ride duration is 12.13 minutes.
 * 97.28% of the rides are one-way trips (2,732,635 rides) and 2.72% are round trips (76,285 rides).
-  * The average ride distance and duration for member riders that use the bike for one way trip are 2.095 km and 11.99 minutes, respectively.
-  * The average ride duration for member that use the bike for round trip is 17.26 minutes.
+  * The average ride distance and duration for member riders that use the bike for one-way trips are 2.095 km and 11.99 minutes, respectively.
+  * The average ride duration for member that use the bike for round trips is 17.26 minutes.
 * Member riders never used docked bikes in 2023.
 * 1,817,702 rides used classic bikes.
   * The average ride distance and duration for members using classic bikes are 1.897 km and 13 minutes, respectively.
@@ -119,7 +119,7 @@ We will use the processed data to explore patterns and trends that will help us 
 * The average ride distance is 2.114 km.
 * The average ride duration is 22.94 minutes.
 * 93.24% of the rides are one-way trips (1,428,157 rides) and 6.76% are round trips (103,564 rides).
-  * The average ride distance and duration for casual riders that used the bike for one way trip are 2.267 km and 21.35 minutes, respectively.
+  * The average ride distance and duration for casual riders that used the bike for one-way trips are 2.267 km and 21.35 minutes, respectively.
   * The average ride duration for member that use the bike for round trip is 44.82 minutes.
 * 873,005 rides by casual riders used classic bikes.
   * The average ride distance and duration for casual riders that use classic bike is 2.071 km and 25.75 minutes, respectively.
