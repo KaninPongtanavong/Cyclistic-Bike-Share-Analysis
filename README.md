@@ -72,7 +72,7 @@ We then created new columns using the existing data. This included:
 * Categorizing the type of ride as 'One-way trip' or 'Round trip'.
 * Categorizing each ride as 'Weekend' or 'Weekday'.
 * Categorizing each ride by season, including 'Winter', 'Spring', 'Summer', 'Fall'
-* Categorizing each ride by part of the day as 'Morning', 'Afternoon', 'Evening' or 'Night'
+* Categorizing each ride by part of the day as 'Midnight', 'Morning', 'Afternoon', 'Evening' or 'Night'
 * Renaming the column for more appropriate names, such as 'member_casual' to 'user_type'
 
 ### Filtering Data
@@ -89,14 +89,18 @@ We will use the processed data to explore patterns and trends that will help us 
 * 64.64% of the rides are by member riders (2,799,920 rides)
 * 35.36% of the rides are by casual riders (1,531,721 rides)
 * There are two types of trip: one-way trips and round trips
-  * 95.85% of the total ride are one-way trip (4,151,792 rides) and 4.15% are round trip (179,849 rides).
+  * 95.85% of the total rides are one-way trips (4,151,792 rides) and 4.15% are round trips (179,849 rides).
 * There are three types of bikes: classic, docked, and electric
-    * 2,690,707 rides used classic bike
-    * 76,124 rides used docked bike
-    * 1,564,810 rides used electric bike
+    * 2,690,707 rides used classic bikes
+    * 76,124 rides used docked bikes
+    * 1,564,810 rides used electric bikes
 * Summer is the season that saw the highest number of rides, totaling 1,693,622 rides. August has the highest number of rides in summer, totaling 584,912 rides.
 * 3,108,242 rides occurred on weekdays and 1,223,399 rides on weekends, which is equivalent to 71.76% and 28.24%, respectively.
 * The part of the day with the highest total number of rides is the afternoon, but the peak hour is 17:00.
+* Top 3 starting stations overall:
+  1. Streeter Dr & Grand Ave with the total of 59,614 rides (43,370 casual, 16,244 member)
+  2. DuSable Lake Shore Dr & Monroe St with the total of 38,014 rides (28,714 casual, 9,300 member)
+  3. Michigan Ave & Oak St 34,780 rides with the total of (21,098 casual, 13,682 member)
 
 ### Analysis of Member Riders
 * Number of rides by member riders = 2,799,920 rides.
@@ -104,44 +108,66 @@ We will use the processed data to explore patterns and trends that will help us 
 * The average ride duration is 12.13 minutes.
 * 97.28% of the rides are one-way trips (2,732,635 rides) and 2.72% are round trips (76,285 rides).
   * The average ride distance and duration for member riders that use the bike for one-way trips are 2.095 km and 11.99 minutes, respectively.
-  * The average ride duration for member that use the bike for round trips is 17.26 minutes.
+  * The average ride duration for members that use the bike for round trips is 17.26 minutes.
 * Member riders never used docked bikes in 2023.
 * 1,817,702 rides used classic bikes.
   * The average ride distance and duration for members using classic bikes are 1.897 km and 13 minutes, respectively.
 * 982,218 rides used electric bikes.
-  * The average ride distance and duration for member using electric bikes are 2.298 km and 10.53 minutes, respectively.
+  * The average ride distance and duration for members using electric bikes are 2.298 km and 10.53 minutes, respectively.
 * For members, summer is the season with the highest number of rides, totaling 994,686 rides. August is the month in summer with the highest number of rides, totaling 351,061 rides.
 * 76.48% of member rides occurred on weekdays and 23.52% on weekends, which is equivalent to 2,141,419 and 658,501 rides, respectively.
 * The afternoon is the part of the day that has the highest number of rides, but the peak hour is 17:00.
+* Top 3 starting stations for members:
+  1. Clinton St & Washington Blvd: 24,299 rides
+  2. Kingsbury St & Kinzie St: 24,214 rides 
+  3. Clark St & Elm St: 23,079 rides
 
 ### Analysis of Casual Riders
 * Number of rides by casual riders = 1,531,721 rides.
 * The average ride distance is 2.114 km.
 * The average ride duration is 22.94 minutes.
 * 93.24% of the rides are one-way trips (1,428,157 rides) and 6.76% are round trips (103,564 rides).
-  * The average ride distance and duration for casual riders that used the bike for one-way trips are 2.267 km and 21.35 minutes, respectively.
-  * The average ride duration for member that use the bike for round trip is 44.82 minutes.
+  * The average ride distance and duration for casual riders that use the bike for one-way trips are 2.267 km and 21.35 minutes, respectively.
+  * The average ride duration for casual riders that use the bike for round trips is 44.82 minutes.
 * 873,005 rides by casual riders used classic bikes.
-  * The average ride distance and duration for casual riders that use classic bike is 2.071 km and 25.75 minutes, respectively.
+  * The average ride distance and duration for casual riders that use classic bikes are 2.071 km and 25.75 minutes, respectively.
 * 79,124 rides by casual riders used docked bikes.
-  * The average ride distance and duration for casual riders that use docked bike is 2.155 km and 53.98 minutes, respectively.
+  * The average ride distance and duration for casual riders that use docked bikes are 2.155 km and 53.98 minutes, respectively.
 * 582,952 rides by casual riders used electric bikes.
-  * The average ride distance and duration for casual riders that used electric bike is 2.173 km and 14.66 minutes, respectively.
+  * The average ride distance and duration for casual riders that use electric bikes are 2.173 km and 14.66 minutes, respectively.
 * For casual riders, summer is the season with the highest number of rides, totaling 698,936 rides. August is the month in summer with the highest number of rides, totaling 233,851 rides.
 * 63.12% of casual rides occurred on weekdays and 36.88% on weekends, which is equivalent to 966,823 and 564,898 rides, respectively.
 * The afternoon is the part of the day that has the highest number of rides, but the peak hour is 17:00.
 * For casual riders, the month with the highest number of rides is July.
+* Top 3 starting stations for casual riders:
+  1. Streeter Dr & Grand Ave: 43,370 rides
+  2. DuSable Lake Shore Dr & Monroe St: 28,714 rides
+  3. Michigan Ave & Oak St: 21,098 rides
 
 ### Additional Findings
 * The average ride duration by bike type:
-  * Classic bike = 17.14 minutes
-  * Docked bike = 53.98 minutes
-  * Electric bike = 12.07 minutes
+  * Classic bikes = 17.14 minutes
+  * Docked bikes = 53.98 minutes
+  * Electric bikes = 12.07 minutes
 * The average ride distance by bike type:
-  * Classic bike = 1.953 km
-  * Docked bike = 2.155 km.
-  * Electric bike = 2.252 km.
+  * Classic bikes = 1.953 km
+  * Docked bikes = 2.155 km.
+  * Electric bikes = 2.252 km.
 * Winter is the season that has the lowest number of rides, both the 2022-2023 winter (January, February) and 2023-2024 winter (December). The first winter (2022-2023) had 77,965 rides, and the second winter (2023-2024) had 39,638 rides.
 * On weekdays, the number of rides peaks at 7:00 and 8:00 in the morning. The number of rides then drops slightly and starts rising again from 11:00, peaking at 17:00 with 364,651 rides, 255,272 of which were by members.
-* On weekends, the number of rides rises steadily from 5:00 in the morning until after 16:00, after which the number of rides starts to drop.
+* On weekends, the number of rides rises steadily from 4:00 in the morning until after 16:00, after which the number of rides starts to drop.
 
+Concentration of Casual Riders at Popular Stations:
+
+Casual riders tend to concentrate their rides at a few popular stations. For example, the top station for casual riders, "Streeter Dr & Grand Ave," has 43,370 rides, which is significantly higher than the top stations for members. This pattern suggests that casual riders are likely tourists or occasional users who prefer well-known, central locations.
+Spread of Member Riders Across More Stations:
+
+Member riders have a more distributed pattern of usage. The top stations for members have fewer rides compared to the top stations for casual riders. For instance, the top station for members, "Clinton St & Washington Blvd," has 24,299 rides, which is lower than the top station for casual riders. This suggests that members, who are likely residents, use the bike share system more evenly across the city, possibly for daily commutes or regular errands.
+Implications for Marketing and Infrastructure:
+
+Marketing to Casual Riders: Since casual riders concentrate at fewer stations, marketing efforts to convert them into members could focus on these high-traffic locations. Promotions, information booths, or special offers at these popular stations might be effective in reaching a large number of casual riders.
+Supporting Member Riders: For members, ensuring that a wide network of stations is well-maintained and accessible is crucial. Members' usage patterns suggest they rely on the system for more diverse and possibly regular routes, indicating the importance of a robust and evenly distributed station network.
+User Behavior Insights:
+
+Casual Riders' Preferences: Casual riders prefer central and tourist-friendly locations, which might indicate their rides are often part of leisure activities. This insight can help tailor marketing messages that highlight the benefits of membership for regular leisure activities.
+Members' Daily Use: Members use the system more for everyday activities, which could be for commuting or running errands. Highlighting the cost savings and convenience of annual memberships for frequent users could resonate well with this group.
