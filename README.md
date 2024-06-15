@@ -156,18 +156,15 @@ We will use the processed data to explore patterns and trends that will help us 
 * Winter is the season that has the lowest number of rides, both the 2022-2023 winter (January, February) and 2023-2024 winter (December). The first winter (2022-2023) had 77,965 rides, and the second winter (2023-2024) had 39,638 rides.
 * On weekdays, the number of rides peaks at 7:00 and 8:00 in the morning. The number of rides then drops slightly and starts rising again from 11:00, peaking at 17:00 with 364,651 rides, 255,272 of which were by members.
 * On weekends, the number of rides rises steadily from 4:00 in the morning until after 16:00, after which the number of rides starts to drop.
+* Member riders are more evenly distributed across the city, indicating regular, everyday use.
+* Stations near tourist attractions such as Navy Pier are significantly more popular among casual riders.
 
-Concentration of Casual Riders at Popular Stations:
+## Share
+> In the "Share" phase, we present our findings through visualizations and summaries to ensure that the insights are clear and actionable.
 
-Casual riders tend to concentrate their rides at a few popular stations. For example, the top station for casual riders, "Streeter Dr & Grand Ave," has 43,370 rides, which is significantly higher than the top stations for members. This pattern suggests that casual riders are likely tourists or occasional users who prefer well-known, central locations.
-Spread of Member Riders Across More Stations:
+We have created a comprehensive Tableau dashboard to visualize our findings. The dashboard can be accessed [here](https://public.tableau.com/views/CyclisticBike-ShareAnalysisGoogleDataAnalyticsProject/Dashboard?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)
 
-Member riders have a more distributed pattern of usage. The top stations for members have fewer rides compared to the top stations for casual riders. For instance, the top station for members, "Clinton St & Washington Blvd," has 24,299 rides, which is lower than the top station for casual riders. This suggests that members, who are likely residents, use the bike share system more evenly across the city, possibly for daily commutes or regular errands.
-Implications for Marketing and Infrastructure:
+The dashboard included various chart including:
+![Dashboard](https://github.com/get211/Cyclistic-Bike-Share-Analysis/assets/170894868/d3cf14c2-652d-41aa-b979-6396a0aeadc8)
 
-Marketing to Casual Riders: Since casual riders concentrate at fewer stations, marketing efforts to convert them into members could focus on these high-traffic locations. Promotions, information booths, or special offers at these popular stations might be effective in reaching a large number of casual riders.
-Supporting Member Riders: For members, ensuring that a wide network of stations is well-maintained and accessible is crucial. Members' usage patterns suggest they rely on the system for more diverse and possibly regular routes, indicating the importance of a robust and evenly distributed station network.
-User Behavior Insights:
 
-Casual Riders' Preferences: Casual riders prefer central and tourist-friendly locations, which might indicate their rides are often part of leisure activities. This insight can help tailor marketing messages that highlight the benefits of membership for regular leisure activities.
-Members' Daily Use: Members use the system more for everyday activities, which could be for commuting or running errands. Highlighting the cost savings and convenience of annual memberships for frequent users could resonate well with this group.
