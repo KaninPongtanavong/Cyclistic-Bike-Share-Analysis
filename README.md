@@ -160,11 +160,24 @@ We will use the processed data to explore patterns and trends that will help us 
 * Stations near tourist attractions such as Navy Pier are significantly more popular among casual riders.
 
 ## Share
-> In the "Share" phase, we present our findings through visualizations and summaries to ensure that the insights are clear and actionable.
+> In the "Share" phase, we present our findings through visualizations and summaries to ensure the insights are clear and actionable.
 
-We have created a comprehensive Tableau dashboard to visualize our findings. The dashboard can be accessed [here](https://public.tableau.com/views/CyclisticBike-ShareAnalysisGoogleDataAnalyticsProject/Dashboard?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)
+We have created an interactive Tableau dashboard to visualize our findings. We set up actions, filters, and additional information in the tooltips to enhance the audience's interaction with the data. You can access the dashboard [here](https://public.tableau.com/views/CyclisticBike-ShareAnalysisGoogleDataAnalyticsProject/Dashboard?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)
 
-The dashboard included various chart including:
-![Dashboard](https://github.com/get211/Cyclistic-Bike-Share-Analysis/assets/170894868/d3cf14c2-652d-41aa-b979-6396a0aeadc8)
+![Dashboard](https://github.com/get211/Cyclistic-Bike-Share-Analysis/assets/170894868/ee87280b-c3d9-4158-b862-957fd2993896)
 
+### Filtered Dashboard Views
+We have include a few filtered views of the dashboard to highlight specific insights:
+
+**Dashboard Filtered by User Type (Members)**
+![Dashboard(member)](https://github.com/get211/Cyclistic-Bike-Share-Analysis/assets/170894868/80d99cf3-beab-494c-891c-da88326eeda2)
+
+**Dashboard Filtered by User Type (Casual)**
+![Dashboard(casual)](https://github.com/get211/Cyclistic-Bike-Share-Analysis/assets/170894868/9066bde5-ce0f-453e-837c-5da5d72b148c)
+
+**Dashboard Filtered by Ride Type (One-Way Trip)**
+![Dashboard(one-way)](https://github.com/get211/Cyclistic-Bike-Share-Analysis/assets/170894868/955c68d5-5117-448b-96aa-e83daceee65c)
+
+**Dashboard Filtered by Ride Type (Round Trip)**
+![Dashboard(round)](https://github.com/get211/Cyclistic-Bike-Share-Analysis/assets/170894868/37c64490-9b13-40ed-bbf9-55f7c94fca43)
 
