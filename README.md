@@ -173,9 +173,12 @@ We have include a few filtered views of the dashboard to highlight specific insi
 
 ![Dashboard(member)](https://github.com/get211/Cyclistic-Bike-Share-Analysis/assets/170894868/80d99cf3-beab-494c-891c-da88326eeda2)
 
+From the imgae above, we can see that most of the rides by member are for daily commute. They tends to use the bike for one way trip as they travel in a shorter distance and lower duration on average. They only prefer two types of bikes, classic and electric but classic bike is the one that they prefer the most. Number of rides are higher on weekdays than weekend and they ride heavily in the morning through evening.
+
 **Dashboard Filtered by User Type (Casual)**
 
 ![Dashboard(casual)](https://github.com/get211/Cyclistic-Bike-Share-Analysis/assets/170894868/9066bde5-ce0f-453e-837c-5da5d72b148c)
+
 
 **Dashboard Filtered by Ride Type (One-Way Trip)**
 
