@@ -170,14 +170,28 @@ We have created an interactive Tableau dashboard to visualize our findings. We s
 We have include a few filtered views of the dashboard to highlight specific insights:
 
 **Dashboard Filtered by User Type (Members)**
+
 ![Dashboard(member)](https://github.com/get211/Cyclistic-Bike-Share-Analysis/assets/170894868/80d99cf3-beab-494c-891c-da88326eeda2)
 
 **Dashboard Filtered by User Type (Casual)**
+
 ![Dashboard(casual)](https://github.com/get211/Cyclistic-Bike-Share-Analysis/assets/170894868/9066bde5-ce0f-453e-837c-5da5d72b148c)
 
 **Dashboard Filtered by Ride Type (One-Way Trip)**
+
 ![Dashboard(one-way)](https://github.com/get211/Cyclistic-Bike-Share-Analysis/assets/170894868/955c68d5-5117-448b-96aa-e83daceee65c)
 
 **Dashboard Filtered by Ride Type (Round Trip)**
+
 ![Dashboard(round)](https://github.com/get211/Cyclistic-Bike-Share-Analysis/assets/170894868/37c64490-9b13-40ed-bbf9-55f7c94fca43)
+
+**Dashboard Filtered by Bike Type (Docked Bike)**
+
+![Dashboard(docked bike)](https://github.com/get211/Cyclistic-Bike-Share-Analysis/assets/170894868/16914425-4ad7-47fa-84a5-7a5e3de5ae2e)
+
+**Dashboard Filtered by Top 10 Starting Station (Streeter Dr & Grand Ave)**
+
+![Dashboard(map)](https://github.com/get211/Cyclistic-Bike-Share-Analysis/assets/170894868/58f784c5-496a-4dbc-8c2c-718656d860d7)
+
+### Conclusions
 
