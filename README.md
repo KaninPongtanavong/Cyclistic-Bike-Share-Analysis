@@ -82,7 +82,7 @@ After transforming the data, we inspected it again to ensure data integrity. We 
 > After processing our data, we will analyze the cleaned and transformed data to uncover insights and trends.
 
 We will use the processed data to explore patterns and trends that will help us answer the key business questions.
-### Summary of Analysis
+### Overall
 * There are a total of 4,331,641 rides in 2023
 * The average riding distance is 2.065 km.
 * The average ride duration is 15.95 minutes.
@@ -135,7 +135,7 @@ We will use the processed data to explore patterns and trends that will help us 
   * The average ride distance and duration for casual riders that use docked bikes are 2.155 km and 53.98 minutes, respectively.
 * 582,952 rides by casual riders used electric bikes.
   * The average ride distance and duration for casual riders that use electric bikes are 2.173 km and 14.66 minutes, respectively.
-* For casual riders, summer is the season with the highest number of rides, totaling 698,936 rides. August is the month in summer with the highest number of rides, totaling 233,851 rides.
+* For casual riders, summer is the season with the highest number of rides, totaling 698,936 rides. July is the month in summer with the highest number of rides, totaling 245,292 rides.
 * 63.12% of casual rides occurred on weekdays and 36.88% on weekends, which is equivalent to 966,823 and 564,898 rides, respectively.
 * The afternoon is the part of the day that has the highest number of rides, but the peak hour is 17:00.
 * For casual riders, the month with the highest number of rides is July.
@@ -172,29 +172,32 @@ We have include a few filtered views of the dashboard to highlight specific insi
 **Dashboard Filtered by User Type (Members)**
 
 ![Dashboard(member)](https://github.com/get211/Cyclistic-Bike-Share-Analysis/assets/170894868/80d99cf3-beab-494c-891c-da88326eeda2)
-
-From the imgae above, we can see that most of the rides by member are for daily commute. They tends to use the bike for one way trip as they travel in a shorter distance and lower duration on average. They only prefer two types of bikes, classic and electric but classic bike is the one that they prefer the most. Number of rides are higher on weekdays than weekend and they ride heavily in the morning through evening.
+From the image above, we can see that most rides by members are for daily commutes. They tend to use bikes for one-way trips, traveling shorter distances and durations on average. They prefer classic and electric bikes, with classic bikes being the most popular. The number of rides is higher on weekdays than weekends, with heavy usage from morning through evening.
 
 **Dashboard Filtered by User Type (Casual)**
 
 ![Dashboard(casual)](https://github.com/get211/Cyclistic-Bike-Share-Analysis/assets/170894868/9066bde5-ce0f-453e-837c-5da5d72b148c)
-
+From the image above, we can see that casual riders have diverse ride patterns. While most rides are on weekdays, their top stations are near tourist attractions, and their ride numbers peak in the afternoon, indicating significant tourist activity. Some casual riders prefer docked bikes, which they use for longer distances and durations.
 
 **Dashboard Filtered by Ride Type (One-Way Trip)**
 
 ![Dashboard(one-way)](https://github.com/get211/Cyclistic-Bike-Share-Analysis/assets/170894868/955c68d5-5117-448b-96aa-e83daceee65c)
+From the image above, we can see that the charts are almost identical to the summary dashboard, likely due to the fact that most rides are one-way trips.
 
 **Dashboard Filtered by Ride Type (Round Trip)**
 
 ![Dashboard(round)](https://github.com/get211/Cyclistic-Bike-Share-Analysis/assets/170894868/37c64490-9b13-40ed-bbf9-55f7c94fca43)
+From the image above, we can see that the number of round trips by casual riders is higher than those by members. These rides have longer durations, and the top 10 stations for this type of ride are near tourist attractions.
 
 **Dashboard Filtered by Bike Type (Docked Bike)**
 
 ![Dashboard(docked bike)](https://github.com/get211/Cyclistic-Bike-Share-Analysis/assets/170894868/16914425-4ad7-47fa-84a5-7a5e3de5ae2e)
+From the image above, although the number of rides on docked bikes is very low, they are still used by casual riders. This suggests maintaining a diverse bike fleet is beneficial, particularly for tourists, as indicated by the crowded starting stations along Lake Michigan.
 
 **Dashboard Filtered by Top 10 Starting Station (Streeter Dr & Grand Ave)**
 
 ![Dashboard(map)](https://github.com/get211/Cyclistic-Bike-Share-Analysis/assets/170894868/58f784c5-496a-4dbc-8c2c-718656d860d7)
+From the image above, we can see that stations near tourist attractions, like Streeter Dr & Grand Ave, are very popular among this group. These stations have the highest number of rides by casual riders in the summer.
 
 ### Conclusions
 
