@@ -116,7 +116,7 @@ We will use the processed data to explore patterns and trends that will help us 
   * The average ride distance and duration for members using electric bikes are 2.298 km and 10.53 minutes, respectively.
 * For members, summer is the season with the highest number of rides, totaling 994,686 rides. August is the month in summer with the highest number of rides, totaling 351,061 rides.
 * 76.48% of member rides occurred on weekdays and 23.52% on weekends, which is equivalent to 2,141,419 and 658,501 rides, respectively.
-* The afternoon is the part of the day that has the highest number of rides, but the peak hour is 17:00.
+* Part of the day that has the highest number of rides is in the morning, specifically around 07:00 and 08:00, but the peakest hour is 17:00 with 255,272 rides.
 * Top 3 starting stations for members:
   1. Clinton St & Washington Blvd: 24,299 rides
   2. Kingsbury St & Kinzie St: 24,214 rides 
@@ -200,4 +200,46 @@ From the image above, although the number of rides on docked bikes is very low, 
 From the image above, we can see that stations near tourist attractions, like Streeter Dr & Grand Ave, are very popular among this group. These stations have the highest number of rides by casual riders in the summer.
 
 ### Conclusions
+1. Riding Patterns:
+   * The majority of the rides are taken by members, primarily for daily commutes. They prefer calssic and electric bikes and tend to ride mainly during weekdays with peak usage in the morning and evening.
+   * Casual riders have a diverse riding patterns, with a significant amount of rides occuring near tourist attractions. Their rides peak in the afternoon, suggesting that many rides are taken for sightseeing and leisure.
 
+2. Trip Types:
+   * One-way trips dominate the number of rides for over 95% of total rides. This trend is consistent among both member and casual riders, with casual riders taking slightly more round trips.
+
+3. Seasonal Trends:
+   * Summer is the peak season for rides, with August being the peak month for members and July for casual riders. Conversely, winter sees the lowest number of rides, highlighting the seasonality of bike usage.
+
+4. Bike Preferences:
+   * Classic bikes are the most popular among all users, followed by electric bikes. Docked bikes are predominantly used by casual riders and are more common around tourist spots.
+
+5. Top Stations:
+   * Stations near tourist attractions, such as Streeter Dr & Grand Ave and DuSable Lake Shore Dr & Monroe St, are particularly popular among casual riders. Members tend to start their rides at stations more evenly distributed across the city, indicating regular commuting patterns.
+
+## Act
+> In the "Act" phase, we will develop actionable recommendations that address our key business questions and support Cyclistic's goals based on our findings from the analysis.
+
+### Recommendations
+1. Increase Membership Converion:
+   * Introduce short-term membership plans (e.g., daily or weekly memberships) that offer discounts or added benefits to attract casual riders that are tourists.
+   * For casual riders who are local and frequent users, offer special promotions after a certain number of rides within a period.
+
+2. Retain Current Members:
+   * Implement a loyalty program for current members, offering rewards such as free rides, merchandise, or discounts on membership renewal based on their usage.
+   * Provide members with exclusive benefits like priority access to new bike types, special event invitations, and dedicated customer support.
+
+3. Optimize Bike Distribution and Maintenance:
+   * Increase the number of bikes available at the top starting stations like Streeter Dr & Grand Ave and DuSable Lake Shore Dr & Monroe St, especially during peak seasons and hours.
+   * Implement more frequent maintenance at stations with the highest usage to ensure bikes are in good condition, reducing downtime and improving user satisfaction.
+
+ 4. Enhance User Experience:
+    * Introduce features that highlight popular tourist routes and attractions for those who subscribe to the membership, making it an additional incentive for casual riders to become members.
+    * Ensure the app provides real-time updates on bike availability and station status to help riders plan their trips more efficiently.
+
+ 5. Seasonal and Hourly Adjustments:
+    * Create targeted promotions during winter to boost ridership, such as offering heated bike seats or discounts on rides.
+    * Increase bike availability during peak hours (morning for members and afternoon for casual riders) to meet demand.
+
+ 6. Leverage Data for Continuous Improvement:
+    * Regularly analyze ride data to identify emerging trends and adjust strategies accordingly. Use predictive analytics to anticipate future demand and optimize resource allocation.
+    * Implement a feedback mechanism in the app to gather rider input on their experiences, which can be used to make data-driven improvements.
