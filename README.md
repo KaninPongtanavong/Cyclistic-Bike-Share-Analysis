@@ -116,7 +116,7 @@ We will use the processed data to explore patterns and trends that will help us 
   * The average ride distance and duration for members using electric bikes are 2.298 km and 10.53 minutes, respectively.
 * For members, summer is the season with the highest number of rides, totaling 994,686 rides. August is the month in summer with the highest number of rides, totaling 351,061 rides.
 * 76.48% of member rides occurred on weekdays and 23.52% on weekends, which is equivalent to 2,141,419 and 658,501 rides, respectively.
-* Part of the day that has the highest number of rides is in the morning, specifically around 07:00 and 08:00, but the peak hour is 17:00 with 255,272 rides.
+* On weekdays, the part of the day with the highest number of rides is the morning, specifically around 07:00 and 08:00, but the peak hour is 17:00 with 255,272 rides. On weekends, the highest number of rides occurs in the afternoon.
 * Top 3 starting stations for members:
   1. Clinton St & Washington Blvd: 24,299 rides
   2. Kingsbury St & Kinzie St: 24,214 rides 
@@ -155,7 +155,7 @@ We will use the processed data to explore patterns and trends that will help us 
   * Electric bikes = 2.252 km.
 * Winter is the season that has the lowest number of rides, both the 2022-2023 winter (January, February) and 2023-2024 winter (December). The first winter (2022-2023) had 77,965 rides, and the second winter (2023-2024) had 39,638 rides.
 * On weekdays, the number of rides peaks at 7:00 and 8:00 in the morning. The number of rides then drops slightly and starts rising again from 11:00, peaking at 17:00 with 364,651 rides, 255,272 of which were by members.
-* On weekends, the number of rides rises steadily from 4:00 in the morning until after 16:00, after which the number of rides starts to drop.
+* On weekends, the number of rides rises steadily from 4:00 until after 16:00, after which the number of rides starts to drop.
 * Member riders are more evenly distributed across the city, indicating regular, everyday use.
 * Stations near tourist attractions such as Navy Pier are significantly more popular among casual riders.
 
