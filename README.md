@@ -1,16 +1,16 @@
 # Cyclistic-Bike-Share-Analysis
-This project is a case study which is a part of the Google Data Analytics professional certificate. This project aims to make the learner demonstrate the skills and knowledge acquire throughout the course. We will be performing typical tasks of a junior data analyst while following the steps of the data analysis process: Ask, Prepare, Process, Analyze, Share, and Act. We will be using Jupyter notebook for preparing, processing, and analyzing the data, then we will use Tableau for sharing our findings (we will also perform additional analysis if needed).
+This project is a case study as part of the Google Data Analytics professional certificate. The project aims to demonstrate the skills and knowledge acquired throughout the course. We will perform typical tasks of a junior data analyst while following the steps of the data analysis process: Ask, Prepare, Process, Analyze, Share, and Act. We will use Jupyter Notebook for preparing, processing, and analyzing the data, and then use Tableau for sharing our findings (we will also perform additional analysis if needed).
 ![1_sPHAfqCpeT_Hr57CPfVj1Q](https://github.com/get211/Cyclistic-Bike-Share-Analysis/assets/170894868/2f4b97a4-47b8-4ebc-b42a-ec486a85efeb)
 ## Introduction
-In this project, as a junior data analyst working on the marketing analyst team at Cyclistic, we are tasked with analyzing the bike share data. Cyclistic is a bike share company in Chicago that launched in 2016. Since then, it has grown to have more than 5,800 bicycles and 600 docking stations across Chicago. The bikes can be unlocked from one station and returned to any other station in the system at any time. Cyclistic’s marketing strategy relied on building general awareness and appealing to broad consumer segments. One approach that helped make these things possible was the flexibility of its pricing plans: single-ride passes, full-day passes, and annual memberships. Customers who purchase single-ride or full-day passes are referred to as casual riders, while customers who purchase annual memberships are Cyclistic members.
+In this project, as a junior data analyst working on the marketing analyst team at Cyclistic, we are tasked with analyzing bike share data. Cyclistic is a bike share company in Chicago that launched in 2016. Since then, it has grown to have more than 5,800 bicycles and 600 docking stations across Chicago. The bikes can be unlocked from one station and returned to any other station in the system at any time. Cyclistic’s marketing strategy relied on building general awareness and appealing to broad consumer segments. One approach that helped make this possible was the flexibility of its pricing plans: single-ride passes, full-day passes, and annual memberships. Customers who purchase single-ride or full-day passes are referred to as casual riders, while customers who purchase annual memberships are Cyclistic members.
 
-Cyclistic’s finance analysts have concluded that annual members are much more profitable than casual riders. Although the pricing flexibility helps Cyclistic attract more customers, Moreno, the Director of Marketing, believes that maximizing the number of annual members will be key to future growth. Rather than creating a marketing campaign that targets all-new customers, Moreno believes there is a solid opportunity to convert casual riders into members. She notes that casual riders are already aware of the Cyclistic program and have chosen Cyclistic for their mobility needs. Therefore, the team needs to gain a better understanding of how annual members and casual riders differ, why casual riders would buy a membership, and how digital media could affect their marketing tactics. Moreno and her team are interested in analyzing the Cyclistic historical bike trip data to identify trends. The team will then design a new marketing strategy based on the insights we discover to convert casual riders into annual members. However, Cyclistic executives must first approve our recommendations, so they must be backed up with compelling data insights and professional data visualizations.
+Cyclistic’s finance analysts have concluded that annual members are much more profitable than casual riders. Although the pricing flexibility helps Cyclistic attract more customers, Moreno, the Director of Marketing, believes that maximizing the number of annual members will be key to future growth. Rather than creating a marketing campaign that targets all-new customers, Moreno believes there is a solid opportunity to convert casual riders into members. She notes that casual riders are already aware of the Cyclistic program and have chosen Cyclistic for their mobility needs. Therefore, the team needs to gain a better understanding of how annual members and casual riders differ, why casual riders would buy a membership, and how digital media could affect their marketing tactics. Moreno and her team are interested in analyzing Cyclistic's historical bike trip data to identify trends. The team will then design a new marketing strategy based on the insights we discover to convert casual riders into annual members. However, Cyclistic executives must first approve our recommendations, so they must be backed up with compelling data insights and professional data visualizations.
 
 ## Ask
->The first phrase of the data analysis process is "Ask". In this phrase, we will identify the business task, consider key stakeholders and ask key questions that need to be answered to guide the analysis.
+> The first phrase of the data analysis process is "Ask". In this phrase, we will identify the business task, consider key stakeholders and ask key questions that need to be answered to guide the analysis.
 
 ### Business Task
-Our main business task is to understand how members and casual riders use Cyclistic bike differently and to identify strategies to convert casual riders into annual members.
+Our main business task is to understand how members and casual riders use Cyclistic bikes differently and to identify strategies to convert casual riders into annual members.
 
 ### Stakeholders
 - Lily Moreno: The director of marketing and your manager. Moreno is responsible for the development of campaigns and initiatives to promote the bike-share program. These may include email, social media, and other channels.
@@ -25,11 +25,11 @@ Our main business task is to understand how members and casual riders use Cyclis
 3. How can Cyclistic use digital media to influence casual riders to become members?
 
 ## Prepare
->In the second phrase of the data analysis process, "Prepare", we will gather and organize the data needed for analysis and ensure that the data is reliable, original, comprehensive, current and cited (ROCCC).
+> In the second phase of the data analysis process, "Prepare", we will gather and organize the data needed for analysis and ensure that the data is reliable, original, comprehensive, current, and cited (ROCCC).
 
-The historical data of Cyclistic bike share can be found [here](https://divvy-tripdata.s3.amazonaws.com/index.html). (Please Note: The datasets have a different name because Cyclistic is a fictional company. For the purposes of this case study, the datasets are appropriate and able to answer the business questions. The data has been made available by Motivate International Inc. under this [license](https://divvybikes.com/data-license-agreement).) The datasets are structured data organized as CSV file for each month, we will be using the data of the year 2023 for this project.
+The historical data of Cyclistic bike share can be found [here](https://divvy-tripdata.s3.amazonaws.com/index.html). (Please Note: The datasets have a different name because Cyclistic is a fictional company. For the purposes of this case study, the datasets are appropriate and able to answer the business questions. The data has been made available by Motivate International Inc. under this [license](https://divvybikes.com/data-license-agreement).) The datasets are structured data organized as CSV files for each month. We will be using the data from the year 2023 for this project.
 
-After we downloaded all the data from 2023, we inspected it to ensure that it's ROCCC.
+After downloading all the data from 2023, we inspected it to ensure that it is ROCCC.
 
 The data is provided "AS IS" and is available for the entire year of 2023. It is obtained directly from the source without relying on second or third parties. The data covers all the months of the previous year and has been vetted and made available for public use under the provided license. Although the data contains some missing values, which we will address in the next phase, it is comprehensive enough for our analysis. Hence, it is reliable, original, comprehensive, current, and cited (ROCCC).
 
@@ -56,11 +56,11 @@ We then prepare the tool that we are going to use for the next phrase, Jupyter n
 We will be using Jupyter notebook for process and analyze phrase. The file can be accessed [here](https://github.com/get211/Cyclistic-Bike-Share-Analysis/blob/main/Cyclistic%20bike-share%20(Process%20%26%20Analyze).ipynb). 
 
 ### Merging All the Data
-We started by merging all the monthly files into a single DataFrame for 2023. This will allow us to perform a comprehensive analysis. As a result, we have a dataframe of 2023 bike rides that contains 5,719,877 rows in total.
+We started by merging all the monthly files into a single DataFrame for 2023. This will allow us to perform a comprehensive analysis. As a result, we have a DataFrame of 2023 bike rides that contains 5,719,877 rows in total.
 
 ### Data Cleaning
 After merging the data, we will performed the following steps to clean our data:
-* Removing missing values: We removed all rows that containing a Nan values, as a result there are 4,331,707 rows left.
+* Removing missing values: We removed all rows containing NaN values, resulting in 4,331,707 rows.
 * Removing duplicate values: We verified that there are no duplicate values in our dataframe.
 * Correcting Data Type: We inspected the data types of each column to ensure they are suitable for analysis. For instance, we converted the data types of started_at and ended_at to datetime object.
 
@@ -98,9 +98,9 @@ We will use the processed data to explore patterns and trends that will help us 
 * 3,108,242 rides occurred on weekdays and 1,223,399 rides on weekends, which is equivalent to 71.76% and 28.24%, respectively.
 * The part of the day with the highest total number of rides is the afternoon, but the peak hour is 17:00.
 * Top 3 starting stations overall:
-  1. Streeter Dr & Grand Ave with the total of 59,614 rides (43,370 casual, 16,244 member)
-  2. DuSable Lake Shore Dr & Monroe St with the total of 38,014 rides (28,714 casual, 9,300 member)
-  3. Michigan Ave & Oak St 34,780 rides with the total of (21,098 casual, 13,682 member)
+  1. Streeter Dr & Grand Ave with a total of 59,614 rides (43,370 casual, 16,244 member).
+  2. DuSable Lake Shore Dr & Monroe St with a total of 38,014 rides (28,714 casual, 9,300 member).
+  3. Michigan Ave & Oak St 34,780 rides with a total of (21,098 casual, 13,682 member)
 
 ### Analysis of Member Riders
 * Number of rides by member riders = 2,799,920 rides.
@@ -116,7 +116,7 @@ We will use the processed data to explore patterns and trends that will help us 
   * The average ride distance and duration for members using electric bikes are 2.298 km and 10.53 minutes, respectively.
 * For members, summer is the season with the highest number of rides, totaling 994,686 rides. August is the month in summer with the highest number of rides, totaling 351,061 rides.
 * 76.48% of member rides occurred on weekdays and 23.52% on weekends, which is equivalent to 2,141,419 and 658,501 rides, respectively.
-* Part of the day that has the highest number of rides is in the morning, specifically around 07:00 and 08:00, but the peakest hour is 17:00 with 255,272 rides.
+* Part of the day that has the highest number of rides is in the morning, specifically around 07:00 and 08:00, but the peak hour is 17:00 with 255,272 rides.
 * Top 3 starting stations for members:
   1. Clinton St & Washington Blvd: 24,299 rides
   2. Kingsbury St & Kinzie St: 24,214 rides 
@@ -140,9 +140,9 @@ We will use the processed data to explore patterns and trends that will help us 
 * The afternoon is the part of the day that has the highest number of rides, but the peak hour is 17:00.
 * For casual riders, the month with the highest number of rides is July.
 * Top 3 starting stations for casual riders:
-  1. Streeter Dr & Grand Ave: 43,370 rides
-  2. DuSable Lake Shore Dr & Monroe St: 28,714 rides
-  3. Michigan Ave & Oak St: 21,098 rides
+  1. Streeter Dr & Grand Ave: 43,370 rides.
+  2. DuSable Lake Shore Dr & Monroe St: 28,714 rides.
+  3. Michigan Ave & Oak St: 21,098 rides.
 
 ### Additional Findings
 * The average ride duration by bike type:
@@ -201,11 +201,11 @@ From the image above, we can see that stations near tourist attractions, like St
 
 ### Conclusions
 1. Riding Patterns:
-   * The majority of the rides are taken by members, primarily for daily commutes. They prefer calssic and electric bikes and tend to ride mainly during weekdays with peak usage in the morning and evening.
-   * Casual riders have a diverse riding patterns, with a significant amount of rides occuring near tourist attractions. Their rides peak in the afternoon, suggesting that many rides are taken for sightseeing and leisure.
+   * The majority of rides are taken by members, primarily for daily commutes. They prefer classic and electric bikes and tend to ride mainly during weekdays with peak usage in the morning and evening.
+   * Casual riders have diverse riding patterns, with a significant number of rides occurring near tourist attractions. Their rides peak in the afternoon, suggesting that many rides are taken for sightseeing and leisure.
 
 2. Trip Types:
-   * One-way trips dominate the number of rides for over 95% of total rides. This trend is consistent among both member and casual riders, with casual riders taking slightly more round trips.
+   * One-way trips dominate the number of rides, accounting for over 95% of total rides. This trend is consistent among both member and casual riders, with casual riders taking slightly more round trips.
 
 3. Seasonal Trends:
    * Summer is the peak season for rides, with August being the peak month for members and July for casual riders. Conversely, winter sees the lowest number of rides, highlighting the seasonality of bike usage.
@@ -221,9 +221,9 @@ From the image above, we can see that stations near tourist attractions, like St
 
 ### Recommendations
 1. Increase Membership Converion:
-   * Introduce short-term membership plans (e.g., daily or weekly memberships) that offer discounts or added benefits to attract casual riders that are tourists.
+   * Introduce short-term membership plans (e.g., daily or weekly memberships) that offer discounts or added benefits to attract casual riders who are tourists.
    * For casual riders who are local and frequent users, offer special promotions after a certain number of rides within a period.
-
+     
 2. Retain Current Members:
    * Implement a loyalty program for current members, offering rewards such as free rides, merchandise, or discounts on membership renewal based on their usage.
    * Provide members with exclusive benefits like priority access to new bike types, special event invitations, and dedicated customer support.
