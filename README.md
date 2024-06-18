@@ -59,7 +59,7 @@ We will be using Jupyter notebook for process and analyze phrase. The file can b
 We started by merging all the monthly files into a single DataFrame for 2023. This will allow us to perform a comprehensive analysis. As a result, we have a DataFrame of 2023 bike rides that contains 5,719,877 rows in total.
 
 ### Data Cleaning
-After merging the data, we will performed the following steps to clean our data:
+After merging the data, we will perform the following steps to clean our data:
 * Removing missing values: We removed all rows containing NaN values, resulting in 4,331,707 rows.
 * Removing duplicate values: We verified that there are no duplicate values in our dataframe.
 * Correcting Data Type: We inspected the data types of each column to ensure they are suitable for analysis. For instance, we converted the data types of started_at and ended_at to datetime object.
