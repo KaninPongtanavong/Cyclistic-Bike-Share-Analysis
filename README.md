@@ -167,7 +167,7 @@ We have created an interactive Tableau dashboard to visualize our findings. We s
 ![Dashboard](https://github.com/get211/Cyclistic-Bike-Share-Analysis/assets/170894868/ee87280b-c3d9-4158-b862-957fd2993896)
 
 ### Filtered Dashboard Views
-We have include a few filtered views of the dashboard to highlight specific insights:
+We have included a few filtered views of the dashboard to highlight specific insights:
 
 **Dashboard Filtered by User Type (Members)**
 
@@ -197,7 +197,7 @@ From the image above, although the number of rides on docked bikes is very low, 
 **Dashboard Filtered by Top 10 Starting Station (Streeter Dr & Grand Ave)**
 
 ![Dashboard(map)](https://github.com/get211/Cyclistic-Bike-Share-Analysis/assets/170894868/58f784c5-496a-4dbc-8c2c-718656d860d7)
-From the image above, we can see that stations near tourist attractions, like Streeter Dr & Grand Ave, are very popular among this group. These stations have the highest number of rides by casual riders in the summer.
+From the image above, we can see that stations near tourist attractions, like Streeter Dr & Grand Ave, are very popular among casual riders. These stations have the highest number of rides by casual riders in the summer.
 
 ### Conclusions
 1. Riding Patterns:
@@ -220,7 +220,7 @@ From the image above, we can see that stations near tourist attractions, like St
 > In the "Act" phase, we will develop actionable recommendations that address our key business questions and support Cyclistic's goals based on our findings from the analysis.
 
 ### Recommendations
-1. Increase Membership Converion:
+1. Increase Membership Conversion:
    * Introduce short-term membership plans (e.g., daily or weekly memberships) that offer discounts or added benefits to attract casual riders who are tourists.
    * For casual riders who are local and frequent users, offer special promotions after a certain number of rides within a period.
      
