@@ -83,24 +83,24 @@ After transforming the data, we inspected it again to ensure data integrity. We 
 
 We will use the processed data to explore patterns and trends that will help us answer the key business questions.
 ### Overall
-* There are a total of 4,331,641 rides in 2023
+* There are a total of 4,331,641 rides in 2023.
 * The average riding distance is 2.065 km.
 * The average ride duration is 15.95 minutes.
-* 64.64% of the rides are by member riders (2,799,920 rides)
-* 35.36% of the rides are by casual riders (1,531,721 rides)
-* There are two types of trip: one-way trips and round trips
+* 64.64% of the rides are by member riders (2,799,920 rides).
+* 35.36% of the rides are by casual riders (1,531,721 rides).
+* There are two types of trips: one-way trips and round trips
   * 95.85% of the total rides are one-way trips (4,151,792 rides) and 4.15% are round trips (179,849 rides).
 * There are three types of bikes: classic, docked, and electric
-    * 2,690,707 rides used classic bikes
-    * 76,124 rides used docked bikes
-    * 1,564,810 rides used electric bikes
+  * 2,690,707 rides used classic bikes.
+  * 76,124 rides used docked bikes.
+  * 1,564,810 rides used electric bikes.
 * Summer is the season that saw the highest number of rides, totaling 1,693,622 rides. August has the highest number of rides in summer, totaling 584,912 rides.
 * 3,108,242 rides occurred on weekdays and 1,223,399 rides on weekends, which is equivalent to 71.76% and 28.24%, respectively.
 * The part of the day with the highest total number of rides is the afternoon, but the peak hour is 17:00.
 * Top 3 starting stations overall:
   1. Streeter Dr & Grand Ave with a total of 59,614 rides (43,370 casual, 16,244 member).
   2. DuSable Lake Shore Dr & Monroe St with a total of 38,014 rides (28,714 casual, 9,300 member).
-  3. Michigan Ave & Oak St 34,780 rides with a total of (21,098 casual, 13,682 member)
+  3. Michigan Ave & Oak St 34,780 rides with a total of (21,098 casual, 13,682 member).
 
 ### Analysis of Member Riders
 * Number of rides by member riders = 2,799,920 rides.
@@ -118,9 +118,9 @@ We will use the processed data to explore patterns and trends that will help us 
 * 76.48% of member rides occurred on weekdays and 23.52% on weekends, which is equivalent to 2,141,419 and 658,501 rides, respectively.
 * On weekdays, the part of the day with the highest number of rides is the morning, specifically around 07:00 and 08:00, but the peak hour is 17:00 with 255,272 rides. On weekends, the highest number of rides occurs in the afternoon.
 * Top 3 starting stations for members:
-  1. Clinton St & Washington Blvd: 24,299 rides
-  2. Kingsbury St & Kinzie St: 24,214 rides 
-  3. Clark St & Elm St: 23,079 rides
+  1. Clinton St & Washington Blvd: 24,299 rides.
+  2. Kingsbury St & Kinzie St: 24,214 rides.
+  3. Clark St & Elm St: 23,079 rides.
 
 ### Analysis of Casual Riders
 * Number of rides by casual riders = 1,531,721 rides.
@@ -153,7 +153,7 @@ We will use the processed data to explore patterns and trends that will help us 
   * Classic bikes = 1.953 km
   * Docked bikes = 2.155 km.
   * Electric bikes = 2.252 km.
-* Winter is the season that has the lowest number of rides, both the 2022-2023 winter (January, February) and 2023-2024 winter (December). The first winter (2022-2023) had 77,965 rides, and the second winter (2023-2024) had 39,638 rides.
+* Winter has the lowest number of rides. In the 2022-2023 winter (January, February), there were 297,844 rides, with 235,447 by members. In the 2023-2024 winter (December), there were 167,139 rides, with 130,453 by members.
 * On weekdays, the number of rides peaks at 7:00 and 8:00 in the morning. The number of rides then drops slightly and starts rising again from 11:00, peaking at 17:00 with 364,651 rides, 255,272 of which were by members.
 * On weekends, the number of rides rises steadily from 4:00 until after 16:00, after which the number of rides starts to drop.
 * Member riders are more evenly distributed across the city, indicating regular, everyday use.
