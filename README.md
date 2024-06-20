@@ -221,8 +221,9 @@ From the image above, we can see that stations near tourist attractions, like St
 
 ### Recommendations
 1. Increase Membership Conversion:
-   * Introduce short-term membership plans (e.g., daily or weekly memberships) that offer discounts or added benefits to attract casual riders who are tourists.
-   * For casual riders who are local and frequent users, offer special promotions after a certain number of rides within a period.
+   * Introduce a limited-time promotion offering significant discounts on the first year of annual memberships for casual riders, especially targeting frequent users and local residents.
+   * Offer an incentive program where casual riders who frequently use full-day passes can accumulate credits or discounts toward an annual membership.
+   * Introduce a "tourist membership" that offers weekly or monthly memberships with benefits similar to annual memberships but at a higher price point to cater specifically to tourists who might not stay long enough to justify an annual membership.
      
 2. Retain Current Members:
    * Implement a loyalty program for current members, offering rewards such as free rides, merchandise, or discounts on membership renewal based on their usage.
